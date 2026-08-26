@@ -646,16 +646,3 @@ No MySQL:
 ---
 
 
-```
-
-> ⚠️ Para instaladores `.exe`, `.msi` e arquivos `.zip`, verifique o tamanho dos arquivos e as políticas de armazenamento do GitHub antes de enviá-los diretamente ao repositório.
-
----
-
-
-
----
-
-**Professor: Ygor Silva**  
-**Curso: Banco de Dados com MySQL**  
-**Aula 02 — Modelagem de Dados e SQL**
