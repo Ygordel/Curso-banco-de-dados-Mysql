@@ -702,12 +702,6 @@ curso-banco-de-dados-mysql/
 
 ---
 
-## 📚 Referência da aula
-
-O material fornecido para a Aula 02 apresenta a modelagem de dados, o estudo de caso da entidade `Cliente`, a criação da tabela com `PRIMARY KEY` e `NOT NULL`, inserção de registros, alterações, exclusões e consultas com `WHERE`, `AND`, `OR` e `LIKE`. fileciteturn18file0L5-L18 fileciteturn18file0L42-L68 fileciteturn18file0L94-L150
-
----
-
 **Professor: Ygor Silva**  
 **Curso: Banco de Dados com MySQL**  
 **Aula 02 — Modelagem de Dados e SQL**
