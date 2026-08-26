@@ -836,30 +836,6 @@ Utilize `LEFT JOIN` para apresentar todos os funcionários, mesmo aqueles que n�
 
 ---
 
-# 📁 Organização sugerida do repositório
-
-```text
-curso-banco-de-dados-mysql/
-│
-├── Aula-01/
-│   └── Aula-01-Fundamentos-MySQL.md
-│
-├── Aula-02/
-│   └── Aula-02-Modelagem-de-Dados-MySQL.md
-│
-├── Aula-03/
-│   ├── Aula-03-Normalizacao-e-JOINs-MySQL.md
-│   └── imagens/
-│       ├── MER-Aula-03.jpg
-│       └── DER-Aula-03.jpg
-│
-├── ferramentas/
-│
-└── README.md
-```
-
----
-
 # 📌 Resumo
 
 Nesta aula, o banco de dados passou do modelo conceitual para uma estrutura relacional implementada no MySQL.
