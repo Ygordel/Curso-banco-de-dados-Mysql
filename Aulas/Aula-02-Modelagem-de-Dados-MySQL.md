@@ -28,8 +28,7 @@ Ao final da aula, o aluno deverá compreender:
 - como utilizar `AND` e `OR`;
 - como realizar pesquisas textuais com `LIKE`.
 
-A aula parte da análise do escopo do projeto para definir as entidades, atributos e relacionamentos que posteriormente serão transformados em estruturas do banco de dados. fileciteturn18file0L5-L17
-
+A aula parte da análise do escopo do projeto para definir as entidades, atributos e relacionamentos que posteriormente serão transformados em estruturas do banco de dados.
 ---
 
 # 🧰 1. Ferramentas utilizadas no curso
@@ -157,7 +156,7 @@ O objetivo é identificar:
 - relacionamentos;
 - regras necessárias para representar o negócio.
 
-O material da aula destaca que os elementos identificados no escopo devem ser representados graficamente para auxiliar na construção das tabelas, campos e relacionamentos. fileciteturn18file0L11-L18
+O material da aula destaca que os elementos identificados no escopo devem ser representados graficamente para auxiliar na construção das tabelas, campos e relacionamentos. 
 
 ---
 
@@ -236,7 +235,7 @@ RELACIONAMENTOS
 TABELAS
 ```
 
-O material da Aula 02 utiliza o MER para representar a entidade `Cliente` e seus atributos. fileciteturn18file0L11-L18
+O material da Aula 02 utiliza o MER para representar a entidade `Cliente` e seus atributos. 
 
 ---
 
@@ -276,7 +275,7 @@ Características:
 - não deve possuir valores duplicados;
 - não aceita valor nulo.
 
-O material utiliza `codigoCliente INT PRIMARY KEY` na tabela `cliente`. fileciteturn18file0L42-L56
+O material utiliza `codigoCliente INT PRIMARY KEY` na tabela `cliente`. 
 
 ---
 
@@ -317,7 +316,7 @@ CREATE TABLE cliente(
 );
 ```
 
-A estrutura acima segue o exemplo utilizado no material da Aula 02. fileciteturn18file0L42-L56
+A estrutura acima segue o exemplo utilizado no material da Aula 02.
 
 ---
 
@@ -383,7 +382,7 @@ VALUES(
 );
 ```
 
-O material também apresenta outros registros para completar a prática. fileciteturn18file0L62-L68
+O material também apresenta outros registros para complementar a prática. 
 
 ---
 
@@ -397,7 +396,7 @@ SELECT * FROM cliente;
 
 # ✏️ 15. Alterando registros
 
-Podemos alterar um registro utilizando uma condição.
+Podemos alterar um registro com base em uma condição.
 
 ### Exemplo pelo nome
 
@@ -415,7 +414,7 @@ SET sexo = 'm'
 WHERE codigoCliente = 105;
 ```
 
-O uso da chave primária é uma forma mais segura de identificar exatamente o registro que será alterado. fileciteturn18file0L98-L103
+O uso da chave primária é uma forma mais segura de identificar exatamente o registro que será alterado. 
 
 ---
 
@@ -485,8 +484,7 @@ WHERE sexo = 'm'
 OR estadoCivil = 'Casado';
 ```
 
-Esses operadores são utilizados no material para realizar consultas condicionais sobre os clientes. fileciteturn18file0L117-L138
-
+Esses operadores são utilizados no material para realizar consultas condicionais sobre os clientes. 
 ---
 
 # 🔤 19. Pesquisa textual com LIKE
@@ -525,7 +523,7 @@ FROM cliente
 WHERE endereco LIKE '%RJ%';
 ```
 
-O material apresenta `LIKE` como recurso para pesquisa textual e demonstra diferentes posições do caractere `%`. fileciteturn18file0L146-L150
+O material apresenta `LIKE` como recurso para pesquisa textual e demonstra diferentes posições do caractere `%`. 
 
 ---
 
@@ -647,58 +645,14 @@ No MySQL:
 
 ---
 
-# 📦 23. Organização dos arquivos no GitHub
 
-Sugestão de organização do repositório:
-
-```text
-curso-banco-de-dados-mysql/
-│
-├── README.md
-│
-├── Aula-01/
-│   └── Aula-01-Fundamentos-MySQL.md
-│
-├── Aula-02/
-│   ├── Aula-02-Modelagem-de-Dados.md
-│   ├── Aula-02-Banco-de-Dados.sql
-│   └── modelo-cliente.brM
-│
-├── ferramentas/
-│   ├── brModelo30.zip
-│   ├── npp.7.8.8.Installer.x64.exe
-│   └── mysql-installer-community-8.0.21.0.msi
-│
-└── atividades/
-    ├── Tarefa-01.md
-    └── Tarefa-02.md
 ```
 
 > ⚠️ Para instaladores `.exe`, `.msi` e arquivos `.zip`, verifique o tamanho dos arquivos e as políticas de armazenamento do GitHub antes de enviá-los diretamente ao repositório.
 
 ---
 
-# ✅ Checklist da Aula 02
 
-- [ ] Entender o conceito de modelagem de dados
-- [ ] Identificar entidades
-- [ ] Identificar atributos
-- [ ] Compreender relacionamentos
-- [ ] Conhecer o MER
-- [ ] Instalar/utilizar o brModelo
-- [ ] Conhecer o Notepad++
-- [ ] Conhecer o MySQL
-- [ ] Criar a tabela `cliente`
-- [ ] Utilizar `PRIMARY KEY`
-- [ ] Utilizar `NOT NULL`
-- [ ] Inserir registros
-- [ ] Alterar registros
-- [ ] Excluir registros
-- [ ] Utilizar `WHERE`
-- [ ] Utilizar `AND`
-- [ ] Utilizar `OR`
-- [ ] Utilizar `LIKE`
-- [ ] Utilizar `ORDER BY`
 
 ---
 
