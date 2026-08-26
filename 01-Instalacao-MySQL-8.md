@@ -6,7 +6,7 @@
 
 Preparar o ambiente de laboratório para o curso de Banco de Dados utilizando o MySQL 8, instalando o MySQL Server e o MySQL Workbench.
 
-O material de referência apresenta a instalação por meio do MySQL Installer, incluindo seleção dos produtos, verificação de requisitos, configuração do servidor, rede, autenticação, conta administrativa, serviço do Windows e aplicação da configuração. fileciteturn16file0L2-L15
+O material de referência apresenta a instalação por meio do MySQL Installer, incluindo seleção dos produtos, verificação de requisitos, configuração do servidor, rede, autenticação, conta administrativa, serviço do Windows e aplicação da configuração. 
 
 ---
 
