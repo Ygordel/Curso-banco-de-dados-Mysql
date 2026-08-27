@@ -1,5 +1,4 @@
 📚 Curso de Banco de Dados — MySQL
-MySQL SQL Status GitHub
 
 👨‍💻 Apresentação
 Bem-vindo ao Curso de Banco de Dados com foco em MySQL .
